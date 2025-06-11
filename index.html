@@ -64,9 +64,9 @@
       <span><sup>1</sup>Bytedance</span>
       <span><sup>*</sup>Equal contribution,<sup>†</sup>Project lead</span>
       <div class="flex flex-gap" style="margin-bottom:0.5em;">
-        <a target="_blank" href="https://testyyt.github.io" ><button>Paper</button></a>
+        <a target="_blank" href="https://alignhuman.github.io" ><button>Paper</button></a>
 	      <!-- <a target="_blank" href="" onclick="alert('To be determined');return false;"><button>Code</button></a> -->
-        <a target="_blank" href="https://testyyt.github.io"><button>Page</button></a>
+        <a target="_blank" href="https://alignhuman.github.io"><button>Page</button></a>
       </div>
       <small><span><b>TL;DR</b>: Recent advancements in human video generation and animation tasks, driven by diffusion models, have achieved significant progress. However, expressive and realistic human animation remains challenging due to the trade-off between motion naturalness and visual fidelity. To address this, we propose <b>AlignHuman</b>, a framework that combines Preference Optimization as a post-training technique with a divide-and-conquer training strategy to jointly optimize these competing objectives.  
         Our key insight stems from an analysis of the denoising process across timesteps: (1) early denoising timesteps primarily control motion dynamics, while (2) fidelity and human structure can be effectively managed by later timesteps, even if early steps are skipped. Building on this observation, we propose timestep-segment preference optimization (TPO) and introduce two specialized LoRAs as expert alignment modules, each targeting a specific dimension in its corresponding timestep interval. The LoRAs are trained using their respective preference data and activated in the corresponding intervals during inference to enhance motion naturalness and fidelity.
